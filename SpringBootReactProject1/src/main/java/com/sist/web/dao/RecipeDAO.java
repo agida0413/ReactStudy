@@ -18,4 +18,5 @@ public List<Recipe> RecipeListData(@Param("start") int start);
 //count() =>count(*)
 //save = > insert,updaet
 //delete = > delete 
+
 }

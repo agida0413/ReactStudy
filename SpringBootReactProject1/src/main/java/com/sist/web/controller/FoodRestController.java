@@ -38,10 +38,11 @@ public Map foodList(int page) {
 	List<Food_house> list = dao.foodListData(start);
 	
 	map.put("list", list);
-	map.put("startpage", startpage);
-	map.put("endpage", endpage);
+	map.put("startPage", startpage);
+	map.put("endPage", endpage);
 	map.put("curpage", page);
-	map.put("totalpage", totalpage);
+	map.put("totalPage", totalpage);
+	map.put("count", count);
 	
 	return map;
 }
@@ -72,10 +73,10 @@ public Map foodfind(int page,String address) {
 	
 	
 	map.put("list", list);
-	map.put("startpage", startpage);
-	map.put("endpage", endpage);
+	map.put("startPage", startpage);
+	map.put("endPage", endpage);
 	map.put("curpage", page);
-	map.put("totalpage", totalpage);
+	map.put("totalPage", totalpage);
 	
 	return map;
 }

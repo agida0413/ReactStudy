@@ -41,11 +41,11 @@ public Map recipeListData(int page)
 		endpage=totalpage;
 	}
 	map.put("list",list);
-	map.put("totalPage", totalpage);
-	map.put("startPage",startpage);
-	map.put("endPage", endpage);
+	map.put("totalpage", totalpage);
+	map.put("startpage",startpage);
+	map.put("endpage", endpage);
 	map.put("count",count);
-	map.put("curPage", page);
+	map.put("curpage", page);
 	
 	int size=endpage-startpage;
 	int [] paging=new int [30];
